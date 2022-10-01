@@ -38,3 +38,19 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+@media (max-width: 428px){
+    .title {
+        font-size: 18px;
+        text-transform: uppercase;
+        color: $color-light;
+    
+        span {
+            font-size: 75%;
+            line-height: 0;
+            position: relative;
+            vertical-align: baseline;
+            top: -$base-size;
+        }
+    }
+}
