@@ -33,4 +33,9 @@ li a {
 	font-size: 24px;
 	font-weight: bold;
 	padding: $base-size;
+
+}
+
+.linkActive {
+	color: $color-warning;
 }
